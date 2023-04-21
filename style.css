@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+h1,h2, h3, h6, nav, button, form {
+  font-family: 'Kings', cursive;
+  
+}
+h2{
+  text-decoration: underline;
+}
+p, .lead {
+  font-family: 'Carattere', cursive;
+  font-size: 30px;
+  
+
+
+}
+
+#hero {
+  text-align: center;
+  font-weight: bolder;
+}
+.muse {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#form, .featurette-heading{
+  text-align: center;
+}
+#see{
+  background: a#c4aead;
+}

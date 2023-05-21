@@ -2,16 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+
 h1,h2, h3, h6, nav, button, form {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Cormorant Garamond', serif;
   
 }
 h2{
   text-decoration: underline;
 }
 p, .lead {
-  font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
   
 
 
@@ -31,4 +34,60 @@ p, .lead {
 }
 #see{
   background: a#c4aead;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+.display-3{
+    font-weight: bold;
+    font-size: 100px;
+}
+.io{
+  text-align: center;
+  font-size: 60px;
+} .socials {
+  display: flex;
+  
+  justify-content:space-between;
+  
+
+}.socials a {
+  color: black;
+  font-size: 60px;
 }
